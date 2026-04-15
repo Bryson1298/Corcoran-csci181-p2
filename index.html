@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2 style="text-align: center">Projects</h2>
+
+      <ul class="project-list">
+        <li>
+          <article>
+            <button class="project-card" data-index="0">
+              <h3>Project 1</h3>
+              <img
+                src="images/app_image.jpg"
+                alt="Project 1 preview"
+                class="card-image"
+              />
+              <p>Simple frontend app</p>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="1">
+              <h3>Project 2</h3>
+              <img
+                src="images/game_image.jpg"
+                alt="Project 2 preview"
+                class="card-image"
+              />
+              <p>Game project</p>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="2">
+              <h3>Project 3</h3>
+              <img
+                src="images/ui-ux_image.png"
+                alt="Project 3 preview"
+                class="card-image"
+              />
+              <p>UI/UX design</p>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="3">
+              <h3>Project 4</h3>
+              <img
+                src="images/api_image.jpg"
+                alt="Project 4 preview"
+                class="card-image"
+              />
+              <p>API project</p>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="4">
+              <h3>Project 5</h3>
+              <img
+                src="images/full_stack_image.png"
+                alt="Project 5 preview"
+                class="card-image"
+              />
+              <p>Fullstack app</p>
+            </button>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <button class="project-card" data-index="5">
+              <h3>Project 6</h3>
+              <img
+                src="images/portfolio_image.jpg"
+                alt="Project 6 preview"
+                class="card-image"
+              />
+              <p>Portfolio site</p>
+            </button>
+          </article>
+        </li>
+      </ul>
+    </main>
+
+    <!-- Modal -->
+    <dialog id="project-modal" tabindex="-1">
+      <button id="modal-close">Close</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-details"></p>
+      <a id="modal-link" href="#" target="_blank"></a>
+    </dialog>
+
+    <script src="modal.js"></script>
+  </body>
+</html>

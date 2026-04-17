@@ -36,8 +36,8 @@ body {
 
 .card-image {
   width: 100%;
-  aspect-ratio: 16 / 9; /* keeps all images same shape */
-  object-fit: cover; /* crops instead of stretching */
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
   margin: 0.5rem 0;
   border: 1px solid #ccc;
 }
